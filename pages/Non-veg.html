@@ -12,6 +12,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+  
+  <div class="nav">
+    <nav class="w-full h-20 bg-gray-00 flex justify-between px-4 items-center md:px-4">
+        <div><img class="h-12" src="https://cdn-icons-png.flaticon.com/512/1869/1869042.png" alt=""> </div>
+        <ul class="md:flex hidden font-semibold">
+        <a class="mx-[10px] text-white font-bold text-2xl" href="../pages/Home.html">Home</a>
+       <a class="mx-[10px] text-white font-bold text-2xl" href="">About</a>
+        <a class="mx-[10px] text-white font-bold text-2xl" href="../pages/Veg.html">Veg </a>
+          <a class="mx-[10px] text-white font-bold text-2xl " href="">Non-veg</a> 
+           <a class="mx-[10px] text-white font-bold text-2xl" href="">Contact</a>
+        </ul>
+       <div class="hidden md:block px-2 py-2 bg-gray-700 text-white rounded font-bold cursor-pointer">Login/Signup</div>  
+      </nav>
+      </div>
 
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -43,42 +57,6 @@
 
 
 
-        <div class="card-group">
-            <div class="card" data-aos="fade-right"   data-aos-duration="1500">
-              <img class="img" src="./../Images/1.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Egg </h5>
-                <p class="card-text"> create structure and stability within a batter, they help thicken and emulsify sauces and custards</p>
-              </div>
-              <div class="card-footer">
-                <!-- <a href="./../pages/Home.html"><small class="text-muted">View recipe</small></a> -->
-                <button class="btn">View Recipe</button>
-              </div>
-            </div>
-            <div class="card" data-aos="fade-down"   data-aos-duration="1500">
-              <img class="img" src="./../Images/6.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Mutton korma</h5>
-                <p class="card-text">Mutton korma is a mild curry dish originating from traditional Indian cuisine. </p>
-
-              </div>
-              <div class="card-footer">
-                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-                 <a href="./../pages/mutton korma.html"><button class="btn" >View Recipe</button></a>
-              </div>
-            </div>
-            <div class="card" data-aos="fade-left"   data-aos-duration="1500">
-              <img class="img" src="./../Images/2.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Mutton</h5>
-                <p class="card-text">Opting for mutton means the sheep has had the time to mature at pasture, and it shows, as it has more more fat and a greater depth of flavour. </p>
-              </div>
-              <div class="card-footer">
-                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-                 <button class="btn">View Recipe</button>
-              </div>
-            </div>
-          </div><br>
 
 
 
@@ -87,87 +65,101 @@
 
 
 
-
-          <div class="card-group">
-            <div class="card" data-aos="fade-right" data-aos-duration="1500">
-              <img class="img" src="./../Images/3.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Chiness</h5>
-                <p class="card-text">Chinese food staples such as rice, soy sauce, noodles, tea, chili oil, and tofu</p>
-              </div>
-              <div class="card-footer">
-                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-                 <button class="btn">View Recipe</button>
-              </div>
-            </div>
-            <div class="card" data-aos="fade-down"  data-aos-duration="1500" >
-              <img class="img" src="https://static.toiimg.com/thumb/53096628.cms?imgsize=104874&width=509&height=340" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Chicken Biryani</h5>
-                <p class="card-text">Traditional chicken dum biryani which has a fragrance which is so inviting is made by layering rice and marinated chicken</p>
-              </div>
-              <div class="card-footer">
-                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-                 <a href="./../pages/biryani recipe.html"><button class="btn">View Recipe</button></a>
-              </div>
-            </div>
-            <div class="card"  data-aos="fade-left"   data-aos-duration="1500">
-              <img class="img" src="./../Images/5.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Leg piece</h5>
-                <p class="card-text">Chicken legs include the drumstick and thigh. When the two chicken pieces are left together, they're often called a leg quarter and sometimes a hindquarter</p>
-              </div>
-              <div class="card-footer">
-                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-                 <button class="btn">View Recipe</button>
-              </div>
-            </div>
-          </div><br>
+          <section class="recipes2">
+            <h1 class="text-center text-3xl font-semibold">Non-veg recipe</h1>
+            <div class="recipe-section2">
+            
+              <div class="recipe-card2"  data-aos="fade-down-right" data-aos-duration="3000">
+                <img class="img4" src="./../Images/1.jpeg" alt="">
+                <h2>Egg</h2>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.  </p>
+                 <a class="a" href="./../pages/"> View Recipe</a>
+                </div>
+            
+            
+            <div class="recipe-card2"  data-aos="flip-up" data-aos-duration="3000">
+                  <img class="img4 " src="http://127.0.0.1:5500/Images/6.jpeg" alt="">
+                  <h2>Mutton kurma</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                  <a class="a" href="./../pages/mutton korma.html">View Recipe</a>
+                  </div>
+            
+            
+                  <div class="recipe-card2"  data-aos="fade-down-left" data-aos-duration="3000">
+                    <img class="img4" src="http://127.0.0.1:5500/Images/2.jpeg" alt="">
+                    <h2>Mutton</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="a">View Recipe</a>
+                    </div>
+            <div>
+            </section>
 
 
 
 
 
 
+            <section class="recipes2">
+              <!-- <h1 class="text-center text-3xl font-semibold">VEG RECIPE</h1> -->
+              <div class="recipe-section2">
+              
+                <div class="recipe-card2"  data-aos="fade-down-right" data-aos-duration="3000">
+                  <img class="img4" src="http://127.0.0.1:5500/Images/3.jpeg" alt="">
+                  <h2>Chiness</h2>
+                  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.  </p>
+                   <a class="a" href=""> View Recipe</a>
+                  </div>
+              
+              
+              <div class="recipe-card2"  data-aos="flip-up" data-aos-duration="3000">
+                    <img class="img4 " src="https://static.toiimg.com/thumb/53096628.cms?imgsize=104874&width=509&height=340" alt="">
+                    <h2>Biryani</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a class="a" href="./../pages/biryani recipe.html">View Recipe</a>
+                    </div>
+              
+              
+                    <div class="recipe-card2"  data-aos="fade-down-left" data-aos-duration="3000">
+                      <img class="img4" src="http://127.0.0.1:5500/Images/5.jpeg" alt="">
+                      <h2>Leg piece</h2>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                      <a href="a">View Recipe</a>
+                      </div>
+              <div>
+              </section>
 
-          <div class="card-group">
-            <div class="card" data-aos="fade-right"   data-aos-duration="1500">
-              <img class="img" src="https://www.lekhafoods.com/media/1051127/chepala-pulusu.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Fish Curry </h5>
-                <p class="card-text">Fish Curry Recipe: Craving a curry that satiated your soul? Here is a fish curry packed with the goodness of fish marinated in flavourful and aromatic spices, cooked in coconut and tangy tamarind gravy. </p>
-              </div>
-              <div class="card-footer">
-                <!-- <a href="./../pages/Home.html"><small class="text-muted">View recipe</small></a> -->
-                <button class="btn">View Recipe</button>
-              </div>
-            </div>
-            <div class="card" data-aos="fade-down"   data-aos-duration="1500">
-              <img class="img" src="https://i.pinimg.com/736x/20/92/48/2092483fde63dc2c9e3f2a0038c8af1f.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Non-veg full meals</h5>
-                <p class="card-text">Browse through this collection of Non-Vegetarian Recipes from Indian and world Cuisines. Non-vegetarian cuisine includes recipes made with meat and eggs.</p>
 
-              </div>
-              <div class="card-footer">
-                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-                 <a href="./../pages/mutton korma.html"><button class="btn" >View Recipe</button></a>
-              </div>
-            </div>
-            <div class="card" data-aos="fade-left"   data-aos-duration="1500">
-              <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfyg1pWXZxri8ENVBNUjb3yAAZ1i_cu6s1Nw&s" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Chicken Leg Piece</h5>
-                <p class="card-text">Chicken legs include the drumstick and thigh. When the two chicken pieces are left together, they're often called a leg quarter and sometimes a hindquarter</p>
-              </div>
-              <div class="card-footer">
-                <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-                 <!-- <button class="btn">View Recipe</button> -->
-                 
-              </div>
-            </div> 
-          </div><br><br>
 
+
+
+              <section class="recipes2">
+                <!-- <h1 class="text-center text-3xl font-semibold">VEG RECIPE</h1> -->
+                <div class="recipe-section2">
+                
+                  <div class="recipe-card2"  data-aos="fade-down-right" data-aos-duration="3000">
+                    <img class="img4" src="https://www.lekhafoods.com/media/1051127/chepala-pulusu.jpg" alt="">
+                    <h2>Fish curry</h2>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.  </p>
+                     <a class="a" href="./../pages/fishcurry.html"> View Recipe</a>
+                    </div>
+                
+                
+                <div class="recipe-card2"  data-aos="flip-up" data-aos-duration="3000">
+                      <img class="img4 " src="https://i.pinimg.com/736x/20/92/48/2092483fde63dc2c9e3f2a0038c8af1f.jpg" alt="">
+                      <h2>Non-veg full meals</h2>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                      <a href="a">View Recipe</a>
+                      </div>
+                
+                
+                      <div class="recipe-card2"  data-aos="fade-down-left" data-aos-duration="3000">
+                        <img class="img4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfyg1pWXZxri8ENVBNUjb3yAAZ1i_cu6s1Nw&s" alt="">
+                        <h2>Chicken leg piece</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <a href="a">View Recipe</a>
+                        </div>
+                <div>
+                </section>
 
 
           <footer class="nav">
@@ -235,9 +227,6 @@
         
         </div>
           </footer>
-
-
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
