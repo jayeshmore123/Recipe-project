@@ -1,0 +1,11 @@
+.contain2{
+    height: 1000px;
+    width: 600px;
+    border-radius: 10px;
+    background-color:  rgba(238, 21, 21, 0.653);
+    color: white;
+    margin-left: 395px;
+    }
+    .recipe{
+        margin-left: 60px;
+    }

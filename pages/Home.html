@@ -4,8 +4,231 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../Style/Home.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+    <div class="nav">
+ <nav class="w-full h-20 bg-brown-00 flex justify-between px-4 items-center md:px-4">
+  <div><img class="h-12" src="https://cdn-icons-png.flaticon.com/512/1869/1869042.png" alt=""> </div>
+  <ul class="md:flex hidden font-semibold">
+  <a class="mx-[10px] text-white font-bold text-2xl" href="../pages/Home.html">Home</a>
+ <a class="mx-[10px] text-white font-bold text-2xl" href="">About</a>
+  <a class="mx-[10px] text-white font-bold text-2xl" href="../pages/Veg.html">Veg </a>
+    <a class="mx-[10px] text-white font-bold text-2xl " href="">Non-veg</a>
+      <a class="mx-[10px] text-white font-bold text-2xl" href="">Contact</a>
+  </ul>
+ <div class="hidden md:block px-2 py-2 bg-gray-700 text-white rounded font-bold cursor-pointer">Login/Signup</div>  
+</nav>
+   </div>
+
+<section class="hero">
+<div class="hero-section">
+<h1 class="font-bold text-6xl p-[10px]">Welcome to our Recipe Collection</h1>
+<p class="font-bold text-1xl p-[10px]">Create delicous recipe with ease using our interacting web application.  simply input the dishes <br> you intend to cook, along with their corresponding ingredients and step-by-step procedures, <br> to ensure a seamless  and delightful cooking experience.</p>
+<form  action="a" class="search-box">
+<input type="text" placeholder="Search Recipe">
+<button type="submit">search</button>
+</form>
+</div>
+</section>
+
+
+<section class="recipes">
+<h1 class="font-semibold">FEATURED RECIPE</h1>
+<div class="recipe-section">
+<div class="recipe-card" data-aos="fade-down-right"  data-aos-duration="3000" >
+<img src="https://t3.ftcdn.net/jpg/08/65/78/10/360_F_865781007_ncGvISROvkG4qXGUUR5F48grsK8qT81I.jpg" alt="">
+<h2>Fruit Custard</h2>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+<a href="a">View Recipe</a>
+</div>
+
+<div class="recipe-card" data-aos="fade-down-right"  data-aos-duration="3000">
+  <img src="https://images8.alphacoders.com/644/thumb-1920-644361.jpg" alt="">
+  <h2>Pizza</h2>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+  <a href="a">View Recipe</a>
+  </div>
+
+
+  <div class="recipe-card" data-aos="fade-down-left"  data-aos-duration="3000">
+    <img src="https://img.pikbest.com/ai/illus_our/20230413/2c6e94ddf57c48f63b578b5fafa31e6e.jpg!w700wp" alt="">
+    <h2>Cake</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <a href="a">View Recipe</a>
+    </div>
+
+    <div class="recipe-card" data-aos="fade-down-left"  data-aos-duration="3000">
+      <img src="https://t3.ftcdn.net/jpg/06/49/25/26/360_F_649252668_AcwaAGxraSFmNbr5C20hDpTwz1qoi7RF.jpg" alt="">
+      <h2>Momos</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+      <a href="a">View Recipe</a>
+      </div>
+</div>
+</section>
+
+
+<section class=" mx-40">
+  <div class="container grid grid-cols-1 md:grid-cols-2 min-h-[250px] relative">
+  <div class="flex flex-col justify-center py-14 md:0 relative z-10">
+  <div class="text-center md:text-left space-y-6 lg:max-w-[400px]">
+  <h1 class="text-5xl lg:text-4xl font-bold leading-relaxed xl:leading-loose font-averia"> BEST WORDPRESS RECIPE PLUGINS </h1>
+  <P class="text-1xl top3 tracking-wide font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem harum nemo beatae, <br> impedit laborum  tempora ex maxime non repellat, inventore commodi laboriosam officiis <br> nobis, alias quos voluptate nostrum atque unde!</P>
+  
+  
+  <div class="flex justify-center md:justify-start">
+      <button class="primary-btn but3  bg-gray-500 text-bg-white-200 font-semibold p-1  py-2 px-rounded-xl shadow-[0px_px__px_px_#de0029] hover:!scale-110 text-white duration-300">View Recipe</button>
+      </div>
+  
+  </div>
+  </div>
+  
+  <img class="img3  w-[950] md:w-[950px]  "src="https://png.pngtree.com/background/20230528/original/pngtree-variety-of-indian-food-is-served-on-a-table-picture-image_2778395.jpg"  data-aos="zoom-in-left" data-aos-duration="2000" alt="">
+  </div>
+  </section>
+
+
+
+
+<section class="recipes2">
+<h1 class="text-center text-3xl font-semibold">OUR RECIPE</h1>
+<div class="recipe-section2">
+
+  <div class="recipe-card2" data-aos="fade-right"  data-aos-duration="3000">
+    <img class="img4" src="https://thumbs.dreamstime.com/b/pav-bhaji-23718431.jpg" alt="">
+    <h2>Pav Bhaji</h2>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.  </p>
+    <a href="a">View Recipe</a>
+    </div>
+
+
+<div class="recipe-card2" data-aos="flip-left" data-aos-duration="3000">
+      <img class="img4 " src="https://images.alphacoders.com/862/862639.jpg" alt="">
+      <h2>South Indian</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+      <a href="a">View Recipe</a>
+      </div>
+
+
+      <div class="recipe-card2" data-aos="fade-left"  data-aos-duration="3000">
+        <img class="img4" src="https://i.ytimg.com/vi/dGGY3aIken4/maxresdefault.jpg" alt="">
+        <h2>Gulab Jamun</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <a href="a">View Recipe</a>
+        </div>
+<div>
+</section>
+
+
+ 
+
+<section class="recipes2">
+  <h1 class="text-center text-3xl"></h1>
+  <div class="recipe-section2">
+  
+    <div class="recipe-card2" data-aos="fade-right"  data-aos-duration="3000">
+      <img class="img4" src="https://www.licious.in/blog/wp-content/uploads/2022/12/shutterstock_223265560-600x399.jpg" alt="">
+      <h2>Chicken</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+      <a href="a">View Recipe</a>
+      </div>
+  
+  
+  <div class="recipe-card2"data-aos="flip-right" data-aos-duration="3000">
+        <img class="img4 " src="https://c4.wallpaperflare.com/wallpaper/367/822/458/chicken-wings-fried-food-food-cuisine-wallpaper-preview.jpg" alt="">
+        <h2>Chicken Dish</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <a href="a">View Recipe</a>
+        </div>
+  
+        <div class="recipe-card2" data-aos="fade-left"  data-aos-duration="3000"> 
+          <img class="img4" src="https://static.vecteezy.com/system/resources/thumbnails/028/536/608/small_2x/flavorful-feast-indulge-in-the-goodness-of-chicken-biryani-generative-ai-photo.jpg" alt="">
+          <h2>Chicken Biryani</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+          <a href="a">View Recipe</a>
+        </div>
+
+
+        
+     
+  <div>
+  </section>
+
+
+
+  <footer class="nav">
+    <div class="footer bg-gray-00 text-1xl font-semibold">
+    <br><br>
+    <div class="freash">
+      <img class="h-12 ml-[8px]" src="https://cdn-icons-png.flaticon.com/512/1869/1869042.png" alt="">
+      <h1 class="text-2xl ">Every With <br> Helps  </h1>
+    <!-- <h4 class="text-1xl">We provide the best home-grown <br> and  natural products to keep your <br> health good  with a vast products.</h4> -->
     
+    </div>
+    
+    
+    <div class="pro2">
+    <h1 class="text-2xl">Your Tesco Real Food</h1>
+    <h4>Recipe Finder</h4>
+    <h4>Recipe Binder</h4>
+       <h4>Meal Planner</h4>
+       <h4>Cooking Calculator</h4>
+       <h4>Festive Menu Helper</h4>
+    </div>
+    
+    <div class= "link1">
+    <h1 class="text-2xl">Recipes</h1>
+    <h4>Family favourites</h4>
+    <h4>Healthy Meal Ideas</h4>
+    <h4>Recipes categories </h4>
+    <h4>Baking Recipes</h4>
+    <h4>Budget Meals</h4>
+    </div>
+    
+    
+    <div class="link1">
+    <h1 class="text-2xl">Meals & Courses</h1>
+        <h4>Brilliant Breakfasts</h4>
+    <h4>Brunch Ideas</h4>
+    <h4>Lunch Ideas</h4>
+    <h4>Dinner Recipes</h4>
+    <h4>Dessert Inspiration</h4>
+    </div>
+    
+    
+    <div class="link1">
+    <h1 class="text-2xl">Privacy Center</h1>
+    <h4>Privacy & Cookies Policy</h4>
+    <h4>Visit Our Privacy Center</h4>
+    </div>
+    
+    <div class="link1">
+      <h1 class="text-2xl">Useful Links</h1>
+      <h4>Website Feedback</h4>
+      <h4>Tesco PLC</h4>
+      </div>
+    </div>
+    
+    <div class="nav">
+    <div class="mark bg-gray-00">
+      
+<h1 class=" text-footer">Follow us:</h1>
+<div class="images11"><img  src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt=""></div>
+<div class="images11"><img  src="https://cdn-icons-png.flaticon.com/512/2913/2913973.png" alt=""></div>
+<div class="images11"><img  src="https://cdn-icons-png.flaticon.com/512/6819/6819255.png" alt=""></div>
+<div class="images11"><img  src="https://cdn-icons-png.flaticon.com/512/3687/3687416.png" alt=""></div>
+</div>
+
+</div>
+  </footer> 
+
 </body>
 </html>
