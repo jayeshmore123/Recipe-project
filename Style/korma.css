@@ -61,6 +61,12 @@
   width: 1500px;
 }
 
+.btn{
+  border: 5 px solid black;
+  height: 10px;
+  /* width: 500px; */
+
+}
 
 .footer{
   
