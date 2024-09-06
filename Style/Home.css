@@ -97,7 +97,7 @@ cursor: pointer;
     margin-top: 100px;
 }
 .img3{
-    height: 400px;
+    height: 50vh;
     width: 900px;
     border-radius: 15px;
 }
@@ -156,6 +156,7 @@ cursor: pointer;
   
         color: white;
         display: flex;
+        flex-wrap: wrap;
         padding: 20px;
       }
       .freash{
@@ -174,7 +175,7 @@ cursor: pointer;
         margin-left: 40vw;
         font-size: larger;
         margin-top: -35px;
-        color: white;
+        color: white; 
       }
       .images11{
       height: 25px;  
