@@ -1,0 +1,190 @@
+.nav{
+  background-color:gray;
+}
+
+
+.hero{
+    background-image: url(https://p1.pxfuel.com/preview/513/870/409/cook-healthy-food-eat.jpg);
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+padding: 100px 0;
+}
+.search-box{
+max-width: 550px;
+margin: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 500px;
+}
+.search-box input{
+width: 70%;
+padding: 10px;
+outline: none;
+border: 0;
+border-radius: 5px 0 0 5px;
+font-size: 1rem;
+border: 1px solid lightblue ;
+}
+.search-box button{
+padding: 10px 20px;
+outline: none;
+border: 0;
+border-radius: 0px 5px 5px 0px ;
+font-size: 1rem;
+background: rgb(255, 0, 0);
+color:white;
+cursor: pointer;
+}
+
+
+
+.recipes{
+padding: 50px 0;
+}
+.recipes h1{
+text-align: center;
+margin-bottom: 30px;
+font-size: 28px;
+} 
+.recipe-section{
+width: 90%;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+column-gap: 15px;
+
+}
+.recipe-card{
+background: #ffffff;
+margin: 30px 10px;
+border-radius: 8px;
+border: px solid gray;
+overflow: hidden;
+box-shadow: 10px  15px 18px lightblue;
+
+}
+.recipe-card img{
+width: 100%;
+height: 200px;
+object-fit: cover;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.recipe-card h2{
+font-size: 22px;
+padding: 20px;
+}
+.recipe-card p{
+font-size:18px ;
+padding: 20px;
+}
+.recipe-card a{
+display: block;
+text-align: center;
+text-decoration: none;
+background:grey ;
+color: white;
+padding: 15px 0;
+cursor: pointer;
+}
+.top3{
+    margin-top: 100px;
+}
+.img3{
+    height: 50vh;
+    width: 900px;
+    border-radius: 15px;
+}
+.but3{
+    border-radius: 10px;
+    height:40px ;
+    width: 110px;
+}
+
+
+.recipe-section2{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(340px, 1fr));
+    column-gap: 15px;
+    
+    }
+    .recipe-card2{
+    background: #ffffff;
+    margin: 30px 10px;
+    border-radius: 8px;
+    border: px solid gray;
+    overflow: hidden;
+    box-shadow: 10px 15px 18px  lightblue;
+    }
+    .recipe-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .recipe-card2 h2{
+    font-size: 22px;
+    padding: 20px;
+    }
+    .recipe-card2 p{
+    font-size:18px ;
+    padding: 20px;
+    }
+    .recipe-card2 a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background:grey ;
+    color: white;
+    padding: 15px 0;
+    cursor: pointer;
+    }
+    .img4{
+        height: 275px;
+    }
+
+    .footer{
+  
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+      .freash{
+        padding: 40px;
+      }
+      .pro2{
+        padding: 40px;
+      }
+      .link1{
+        padding: 35px;
+      }
+      .mark{
+      display: flex;  
+      }
+      .text-footer{
+        margin-left: 40vw;
+        font-size: larger;
+        margin-top: -35px;
+        color: white; 
+      }
+      .images11{
+      height: 25px;  
+      width: 25px;
+      border-radius: 50%;
+      margin-left: 10px;
+      margin-top: -30px;
+      }
+      .view{
+        margin-left: 400px;
+      }
+    
